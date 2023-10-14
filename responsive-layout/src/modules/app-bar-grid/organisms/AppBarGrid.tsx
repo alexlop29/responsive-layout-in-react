@@ -1,8 +1,8 @@
 import Grid from "@mui/material/Unstable_Grid2";
 import { Button, Box, IconButton, TextField } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const AppBarGrid = () => {
   return (
@@ -30,7 +30,7 @@ const AppBarGrid = () => {
         <ShoppingCartIcon />
       </Grid>
       <Grid xs={12}>
-        <TextField label={"What can we help you find?"} size="medium"  />
+        <TextField label={"What can we help you find?"} size="medium" />
       </Grid>
     </Grid>
   );

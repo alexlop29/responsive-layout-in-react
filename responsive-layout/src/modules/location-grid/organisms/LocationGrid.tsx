@@ -5,12 +5,12 @@ import { StyledGrid, StyledButton } from "../atoms";
 
 const LocationGrid = () => {
   return (
-    <StyledGrid container spacing={2}>
+    <StyledGrid container spacing={2} alignItems="center" direction={"row"} justifyContent="space-evenly">
       <Grid xs={3} lg={1}>
         <StyledButton>10454</StyledButton>
       </Grid>
       <Grid xs={3} lg={1}>
-        <StyledButton>Harlem 117th St</StyledButton>
+        <StyledButton>Harlem 117</StyledButton>
       </Grid>
       <Grid xs={6} lg={5}></Grid>
       <Grid lg={1} sx={{ display: { xs: 'none', lg: 'flex' }}}>

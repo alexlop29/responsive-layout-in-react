@@ -2,7 +2,13 @@ import { Button } from '@mui/material';
 import styled from '@emotion/styled';
 
 const StyledButton = styled(Button)`
-  background-color: gray;
+  font-family: Helvetica Neue;
+  font-size: 11px;
+  text-align: left;
+  color: white;
+  &:hover {
+    background-color: lightblue;
+  },
 `;
 
 export { StyledButton }

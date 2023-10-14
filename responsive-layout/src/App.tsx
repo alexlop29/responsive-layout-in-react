@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import SmallLocationBanner from './modules/location-bar/organisms/sm-nav-bar';
+import SmallLocationBanner from './modules/location-banner/organisms/sm-nav-bar';
 
 function App() {
   return (

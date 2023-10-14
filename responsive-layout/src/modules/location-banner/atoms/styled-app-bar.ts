@@ -1,5 +1,5 @@
-import { AppBar } from '@mui/material';
-import styled from '@emotion/styled';
+import { AppBar } from "@mui/material";
+import styled from "@emotion/styled";
 
 const StyledAppBar = styled(AppBar)`
   background-color: #cc0000;
@@ -11,4 +11,4 @@ const StyledAppBar = styled(AppBar)`
   padding-bottom: 2%;
 `;
 
-export { StyledAppBar }
+export { StyledAppBar };

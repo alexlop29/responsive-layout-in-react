@@ -1,8 +1,8 @@
-import { Box } from '@mui/material';
-import styled from '@emotion/styled';
+import { Box } from "@mui/material";
+import styled from "@emotion/styled";
 
 const StyledBox = styled(Box)`
-  padding: 10px
+  padding: 10px;
 `;
 
-export { StyledBox }
+export { StyledBox };

@@ -1,36 +1,41 @@
 import Grid from "@mui/material/Unstable_Grid2";
-import { Button, Box, IconButton, TextField } from "@mui/material";
+import { Button, IconButton, TextField } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import AccountCircleIcon from "@mui/icons-material/AccountCircleOutlined";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCartOutlined";
+import { StyledGridItem } from "../atoms/StyledGridItem";
+import { StyledButton, StyledTextField } from "../atoms";
 
 const AppBarGrid = () => {
   return (
     <Grid
       container
-      spacing={2}
       alignItems="center"
       direction={"row"}
-      justifyContent="space-evenly"
+      padding={"2%"}
     >
-      <Grid xs={3}>
-        <Box>
-          <IconButton>
-            <MenuIcon fontSize="large" />
-          </IconButton>
-        </Box>
+      <Grid xs={1}>
+        <IconButton>
+          <MenuIcon fontSize="large" />
+        </IconButton>
       </Grid>
-      <Grid xs={3}>
-        <Button> Logo Placeholder</Button>
+      <StyledGridItem xs={9}>
+        <Button>
+          <img src="/TargetLogo.jpg" height={"38px"} />
+        </Button>
+      </StyledGridItem>
+      <Grid xs={1}>
+        <StyledButton>
+          <AccountCircleIcon />
+        </StyledButton>
       </Grid>
-      <Grid xs={3}>
-        <AccountCircleIcon />
-      </Grid>
-      <Grid xs={3}>
-        <ShoppingCartIcon />
+      <Grid xs={1}>
+        <StyledButton>
+          <ShoppingCartIcon />
+        </StyledButton>
       </Grid>
       <Grid xs={12}>
-        <TextField label={"What can we help you find?"} size="medium" />
+        <TextField label={"What can we help you find?"} size="small" fullWidth variant="filled" />
       </Grid>
     </Grid>
   );

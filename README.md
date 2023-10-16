@@ -16,3 +16,6 @@ nvm use 20.8.0
 npm install
 npm start
 ```
+
+# Design Principles
+- [Atomic Design](https://github.com/danilowoz/react-atomic-design)

@@ -3,6 +3,7 @@ Leverages Material UI components to create a responsive layout, using Typescript
 
 # 🔧 Core libraries
 - [Node.js 20.8.0](https://nodejs.org/en)
+- [Typescript](https://www.typescriptlang.org)
 - [React 18.2.0](https://react.dev)
 - [Material UI](https://mui.com/material-ui/)
 - [Styled Components](https://styled-components.com)

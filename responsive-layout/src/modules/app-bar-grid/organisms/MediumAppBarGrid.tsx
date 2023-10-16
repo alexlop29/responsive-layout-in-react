@@ -31,7 +31,8 @@ const MediumAppBarGrid = () => {
           variant="filled"
         />
       </Grid>
-      <Grid xs={3} alignItems={"center"} direction={"row"}>
+      <Grid xs={3} alignItems="center" justifyContent="center" direction={"row"} 
+      paddingLeft={"10%"}>
         <StyledButton>
           <AccountCircleIcon />
           Sign In

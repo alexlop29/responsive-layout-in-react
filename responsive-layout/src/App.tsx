@@ -3,6 +3,7 @@ import LocationBannerGrid from "./modules/location-banner-grid/organisms/Locatio
 import AppBarGrid from "./modules/app-bar-grid/organisms/AppBarGrid";
 import ProductGrid from "./modules/product-grid/organisms/ProductGrid";
 import MediumAppBarGrid from "./modules/app-bar-grid/organisms/MediumAppBarGrid";
+import MediumProductGrid from "./modules/product-grid/organisms/MediumProductGrid";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AppBarGrid />
       <MediumAppBarGrid />
       <ProductGrid />
+      <MediumProductGrid />
     </>
   );
 }

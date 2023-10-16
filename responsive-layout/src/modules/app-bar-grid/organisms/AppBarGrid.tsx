@@ -13,6 +13,7 @@ const AppBarGrid = () => {
       alignItems="center"
       direction={"row"}
       padding={"2%"}
+      sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
     >
       <Grid xs={1}>
         <IconButton>
@@ -35,7 +36,12 @@ const AppBarGrid = () => {
         </StyledButton>
       </Grid>
       <Grid xs={12}>
-        <TextField label={"What can we help you find?"} size="small" fullWidth variant="filled" />
+        <TextField
+          label={"What can we help you find?"}
+          size="small"
+          fullWidth
+          variant="filled"
+        />
       </Grid>
     </Grid>
   );

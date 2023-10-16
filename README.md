@@ -1,14 +1,17 @@
 # responsive-layout-in-react
 Leverages Material UI components to create a responsive layout, using Typescript and React, that adjusts to various screen sizes
 
-## Getting Start
+# 🔧 Core libraries
+- [Node.js 20.8.0](https://nodejs.org/en)
+- [React 18.2.0](https://react.dev)
+- [Material UI](https://mui.com/material-ui/)
+- [Styled Components](https://styled-components.com)
 
+# 🏄 Getting Started
 ```
+git clone https://github.com/alexlop29/responsive-layout-in-react.git
+cd responsive-layout
 nvm use 20.8.0
-npx create-react-app responsive-layout --template typescript
-npm install @mui/material @mui/styled-engine-sc styled-components
-npm install styled-components
-npm install @emotion/react
-npm install @emotion/styled
-npm install @mui/icons-material
+npm install
+npm start
 ```
